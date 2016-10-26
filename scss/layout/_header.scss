@@ -1,0 +1,36 @@
+/* Header */
+
+header{
+    @extend %space-pad;
+    @extend %clearfix;
+}
+
+.main-nav {
+    
+    @include large{
+       float: right;
+    }
+    
+    li {
+	background: $color-one;
+	border-radius: 1%;
+	margin-bottom: .5em;
+        
+        @include medium{
+           background-color: transparent;
+		   display: inline-block; 
+        }
+    }
+    
+    a{
+    display: block;
+	padding: .5em;  
+    }
+}
+
+h1{
+    @include large{
+     float: left;    
+    }
+}
+

@@ -1,0 +1,18 @@
+#wrapper {
+	@extend %centered;
+	margin: 0;
+	max-width: 1200px;
+    
+    @include medium{
+       margin: 0 auto; 
+    }
+    
+    @include large{
+       width: 80%;
+    }
+}
+
+#portfolio {
+	background: $color-one;
+    @extend %space-pad;
+}

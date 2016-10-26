@@ -1,0 +1,38 @@
+// Descriptive color variables
+
+$white              : #fff;
+$darker-grey        : #4A4A4A;
+$dark-grey          : #7F7F7F;
+$medium-grey        : #E7E7E7;
+$light-grey         : #efefef;
+
+// Functional color variables
+
+$color-one          : $white;
+$color-two          : $light-grey;
+$color-three        : $medium-grey;
+
+$color-border       : $medium-grey;
+    
+$color-text-one     : $darker-grey;
+$color-text-two     : $dark-grey;
+
+// Font stacks
+
+$stack-sans-serif   : Helvetica, Arial, sans-serif;
+$stack-roboto       : 'Roboto', $stack-sans-serif;
+
+// Font sizes
+
+$font-size-small    :1.1em;
+$font-size-medium   :1.2em;
+$font-size-large    :1.5em;
+
+// Asset paths
+
+$path-font          : '../fonts';
+
+// Media query breakpoints
+
+$brk-narrow         : '(min-width: 768px)';
+$brk-wide           : '(min-width: 1024px)';

@@ -1,0 +1,17 @@
+/* Web Fonts -------------------- */
+
+@include font-face('Roboto', Roboto);
+
+/* Text formating */
+
+h1, .main-footer p span{
+	font-weight: 900;
+}
+
+h2, .main-nav, .nav-footer {
+	font-weight: 700;
+}
+
+h3{
+	font-weight: 400;
+}

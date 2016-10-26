@@ -1,0 +1,173 @@
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #efefef;
+  color: #4A4A4A; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  margin-bottom: 1.5em; }
+
+h2 {
+  font-size: 1.1em;
+  line-height: 2em; }
+
+img {
+  width: 100%; }
+
+a {
+  color: #4A4A4A;
+  text-decoration: none; }
+
+/* Pseudo-classes */
+a:hover {
+  color: #7F7F7F; }
+
+/* Header */
+@media (min-width: 1024px) {
+  .main-nav {
+    float: right; } }
+.main-nav li {
+  background: #fff;
+  border-radius: 1%;
+  margin-bottom: .5em; }
+  @media (min-width: 768px) {
+    .main-nav li {
+      background-color: transparent;
+      display: inline-block; } }
+.main-nav a {
+  display: block;
+  padding: .5em; }
+
+@media (min-width: 1024px) {
+  h1 {
+    float: left; } }
+
+footer {
+  padding: 8%; }
+
+/* Footer */
+.main-footer {
+  color: #7F7F7F; }
+  .main-footer p {
+    margin: 2rem 0; }
+
+.nav-footer p {
+  float: left;
+  margin: 1.5rem 0; }
+
+.nav-footer ul {
+  float: right;
+  margin: 1.5rem 0; }
+  @media (min-width: 768px) {
+    .nav-footer ul {
+      width: 50%;
+      text-align: right; } }
+
+.hide-for-small-only {
+  display: none; }
+  @media (min-width: 768px) {
+    .hide-for-small-only {
+      display: inline-block;
+      margin-left: 4%; } }
+
+@media (min-width: 768px) {
+  .show-for-small-only {
+    display: none; } }
+
+#wrapper {
+  margin: 0;
+  max-width: 1200px; }
+  @media (min-width: 768px) {
+    #wrapper {
+      margin: 0 auto; } }
+  @media (min-width: 1024px) {
+    #wrapper {
+      width: 80%; } }
+
+#portfolio {
+  background: #fff; }
+
+/* Body */
+.student-photo {
+  width: 80%;
+  margin: 2em auto;
+  padding: 1em 0;
+  background-color: #E7E7E7; }
+  .student-photo img {
+    width: 50%;
+    border-radius: 100%; }
+  @media (min-width: 768px) {
+    .student-photo {
+      float: right;
+      width: 40%; } }
+
+.student-info {
+  margin-bottom: 2%; }
+  .student-info p {
+    font-size: 1.2em; }
+    @media (min-width: 768px) {
+      .student-info p {
+        display: block;
+        float: left;
+        width: 50%;
+        text-align: left;
+        margin-top: 4em; } }
+
+.portfolio-item p {
+  padding: 0 4%; }
+@media (min-width: 768px) {
+  .portfolio-item {
+    width: 46%;
+    display: inline-block;
+    margin-right: 1%;
+    vertical-align: top; } }
+@media (min-width: 1024px) {
+  .portfolio-item {
+    width: 30%;
+    margin-right: 2%; } }
+
+#wrapper {
+  text-align: center; }
+
+header, #portfolio, .student-info {
+  padding: 3%; }
+
+.nav-footer {
+  border-top: 1px solid #E7E7E7; }
+
+.portfolio-item, .portfolio-item p {
+  margin-bottom: 8%; }
+
+header:after, .nav-footer:after, .student-info:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Web Fonts -------------------- */
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-webfont.eot");
+  src: url("../fonts/Roboto-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-webfont.woff") format("woff"), url("../fonts/Roboto-webfont.ttf") format("truetype"); }
+/* Text formating */
+h1, .main-footer p span {
+  font-weight: 900; }
+
+h2, .main-nav, .nav-footer {
+  font-weight: 700; }
+
+h3 {
+  font-weight: 400; }
+
+
+/*# sourceMappingURL=style.css.map */

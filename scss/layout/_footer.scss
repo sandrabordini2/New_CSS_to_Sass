@@ -1,0 +1,51 @@
+footer {
+	padding: 8%;
+}
+
+/* Footer */
+
+.main-footer {
+	color: $color-text-two;
+    
+    p{
+    margin: 2rem 0;  
+    }
+}
+
+.nav-footer {
+	@extend %t-border;
+    @extend %clearfix;
+    
+    p{
+    float: left;
+	margin: 1.5rem 0;
+    }
+}
+
+.nav-footer ul {
+    float: right;
+    margin: 1.5rem 0;
+
+    @include medium{
+        width: 50%;
+        text-align: right;
+        }
+}
+
+
+
+        .hide-for-small-only{
+        display: none;
+            
+        @include medium {
+            display:inline-block;
+		    margin-left: 4%;
+        }
+            }
+        
+        .show-for-small-only{
+            @include medium {
+            display:none;
+        }   
+        }
+    

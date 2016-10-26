@@ -1,0 +1,119 @@
+// ==========================================================================
+// Global Imports
+// ==========================================================================
+
+@import 'base/index';
+@import 'layout/index';
+@import 'components/index';
+
+
+
+
+
+/* Basic Layout */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********** Media Querys ************/
+
+/* Medium screens 
+
+@media (min-width: 768px) {
+
+	#wrapper {
+		margin: 0 auto;
+	}
+
+	.main-nav li {
+		background-color: transparent;
+		display: inline-block;
+	}
+
+	.portfolio-item {
+		width: 46%;
+		display: inline-block;
+		margin-right: 1%;
+		vertical-align: top;
+	}
+
+	.student-info p {
+		display: block;
+		float: left;
+		width: 50%;
+		text-align: left;
+		margin-top: 4em;
+	}
+	.student-photo {
+		float: right;
+		width: 40%;
+	}
+
+	.nav-footer ul{
+		width: 50%;
+		text-align: right;
+	}
+
+	.show-for-small-only {
+		display:none;
+	}
+
+	.hide-for-small-only {
+		display:inline-block;
+		margin-left: 4%;
+	}
+
+	.clearfix:after {
+	  	content: "";
+	 	display: table;
+	  	clear: both;
+	 }
+
+}
+
+
+/* Large screens 
+
+@media (min-width: 1024px) {
+
+	#wrapper{
+		width: 80%;
+	}
+
+	header h1 {
+		float: left;
+	}
+
+	.main-nav {
+		float: right;
+	}
+
+	.portfolio-item {
+		width: 30%;
+		margin-right: 2%;
+	}
+
+}*/
